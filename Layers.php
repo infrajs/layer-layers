@@ -11,7 +11,7 @@ class layers
 	{
 		global $infrajs;
 		Event::handler('oninit', function () {
-			Controller::runAddList('layers');
+			Run::runAddList('layers');
 		});
 	}
 }
