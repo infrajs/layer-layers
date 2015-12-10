@@ -10,7 +10,7 @@ class layers
 	public static function init()
 	{
 		global $infrajs;
-		Event::waitg('oninit', function () {
+		Event::handler('oninit', function () {
 			Controller::runAddList('layers');
 		});
 	}
